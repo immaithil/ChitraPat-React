@@ -1,0 +1,101 @@
+html{
+    font-size: 10px;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: rgb(45 86 63)
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+h1{
+    font-family: 'Graduate', cursive;
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 100;
+    margin: 2rem 0;
+    letter-spacing: -10px;
+    color: #edc861;;
+}
+@font-face {
+    font-family: 'Cookie';
+    src: url("https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&display=swap");
+}
+.photo-grid{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.figure{
+    background-color: #6da572;
+    flex-basis: calc(33.33% - 4rem);
+    /* border: 1px solid #d3d3d3; */
+    color: white;
+    box-shadow: 1px 2px 6px black;
+    padding: 2rem;
+    flex-grow: 1;
+    margin: 0 2rem 2rem 2rem;
+}
+.photo{
+    width: calc(100% + 4rem);
+    margin: -2rem 0 0 -2rem;
+
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.remove-button{
+    flex-basis: 48%;
+    color: snow;
+    font-size: 15px;
+    border: 2px solid #f2f2f2;
+    line-height: 2;
+    padding: 5px;
+    background: #29af7d;
+}
+.add-icon{
+    margin: 20px auto;
+    display: table;
+    padding: 40px;
+    background: url('https://image.flaticon.com/icons/svg/60/60740.svg') no-repeat;
+    background-size: contain;
+    border: none;
+}
+.form{
+    background-color:rgb(158 201 158 / 76%);
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: center;
+
+}
+.form input{
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0 0 15px;
+
+}
+.form button{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #0b6842;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: #022517;
+}
