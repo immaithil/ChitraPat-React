@@ -56,7 +56,7 @@ class Main extends Component {
 // }
 
   render() {
-    console.log(this.state.posts);
+    
     return (
       <div>
          <Route  exact path='/' render={()=>{
